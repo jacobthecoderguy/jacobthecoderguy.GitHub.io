@@ -61,5 +61,5 @@ async function loadQuestions() {
     }
     
     // Start quiz
-    quiz();
-  
+alert("Loaded")
+quiz();
