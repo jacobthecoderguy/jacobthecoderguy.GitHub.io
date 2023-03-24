@@ -1,1 +1,1 @@
-console.log("Hello world!");
+var dbpath = "database.json"
