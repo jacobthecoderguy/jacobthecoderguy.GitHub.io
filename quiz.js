@@ -8,6 +8,7 @@ async function loadQuestions() {
   // Display question and answer input field
   function displayQuestion(question) {
     let questionElement = document.getElementById("question");
+    alert(question[0]);
     questionElement.innerHTML = question[0];
     let answerElement = document.getElementById("answer");
     answerElement.value = "";
