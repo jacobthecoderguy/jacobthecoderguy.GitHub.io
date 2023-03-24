@@ -4,3 +4,5 @@ async function loadDB() {
     let jsonval = await JSON.parse(txtdat);
     return jsonval;
 }
+
+console.log(loadDB);
