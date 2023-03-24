@@ -5,4 +5,4 @@ async function loadDB() {
     return jsonval;
 }
 
-alert(loadDB);
+alert(loadDB());
