@@ -7,6 +7,7 @@ async function loadDB() {
 
 async function myFunction() {
     let jsonval = await loadDB();
+    alert("db loaded")
     alert(JSON.stringify(jsonval));
   }
   
