@@ -5,4 +5,10 @@ async function loadDB() {
     return jsonval;
 }
 
-alert(loadDB());
+async function myFunction() {
+    let jsonval = await loadDB();
+    alert(JSON.stringify(jsonval));
+  }
+  
+myFunction();
+  
